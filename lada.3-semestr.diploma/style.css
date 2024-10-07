@@ -1,0 +1,1042 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEF2FF;
+} 
+.header {
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    height: 15%;
+    z-index: 5;
+}
+.logo{
+    width: 140px;
+    height: 100px;
+    margin-left: 140px;
+}
+.ul-header {
+    position: relative;
+    list-style: none;
+    display: flex;
+    gap: 39px;
+    font-size: 18px;
+    margin-left: 260px;
+    bottom: 80px;
+}
+
+.li-header {
+    cursor: pointer;
+}
+.a-header{
+    text-decoration: none;
+    color: black;
+}
+.number {
+    position: relative;
+    margin-left: 1355px;
+    bottom: 116px;
+}
+.launge_ru {
+    position: relative;
+    margin-left: 1523px;
+    bottom: 135px;
+    cursor: pointer;
+}
+.launge_ukr {
+    position: relative;
+    margin-left: 1560px;
+    bottom: 153px;
+    cursor: pointer;
+}
+.viber-telegr{
+    width: 26px;
+}
+.line-header{
+    border-top:2px solid #f47f2074;
+    height:10%;
+    width: 1590px;
+    margin-top: -160px;
+    margin-left: 150px;
+}
+.social {
+    margin-right: 150px;
+    position: relative;
+    list-style: none;
+    display: flex;
+    gap: 39px;
+    font-size: 18px;
+    margin-left: 1600px;
+    bottom: 192px;
+}
+
+
+.social_mesangers {
+}
+.first-photo{
+    width: 1890px;
+    height: 600px;
+    margin-top: -150px;
+    background-color:rgba(0,0,0,.3);
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+.background{
+    position: absolute;
+    width: 1887px;
+    height: 817px;
+    background-color: rgba(0, 0, 0, 0.683);
+    margin-top: -200px;
+    z-index: 1;
+}
+.more-contacts{
+    position: relative;
+    top:-200px ;
+    margin-left: 800px;
+    border: 0;
+    border-radius: 25px;
+    width: 297px;
+    height: 46px;
+    background-color: #F47E20;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    z-index: 1;
+
+}
+.nave-conytact{
+    position: absolute;
+    font-size: 50px;
+    top: 260px;
+    background: none;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    margin-left: 330px;
+} 
+
+
+
+
+
+
+
+.why-we {
+    padding: 20px;
+    margin-left: 160px ;
+    max-width: 900px;
+}
+.why-we_H1 {
+    font-size: 27px;
+
+}
+.why_in {
+    word-spacing: 10px;
+    width: 1400px;
+    margin-top: -10px;
+}
+
+.litle-info {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+    margin-left: 270px;
+
+}
+.dop-info {
+    max-width: 900px;
+    width: 100px;
+    height: 100px;
+}
+.dop-info_photo {
+    max-width: 900px;
+    width: 60px;
+    height: 60px;
+}
+.dop-info_text {
+    margin-right: 30px;
+    max-width: 900px;
+}
+.zakaz-ocenka{
+    position: relative;
+    margin-top:40px ;
+    margin-left: 600px;
+    border: 0;
+    border-radius: 25px;
+    width: 297px;
+    height: 46px;
+    background-color: #F47E20;
+    color: wheat;
+    font-size: 17px;
+
+}
+.strelka{
+    position: absolute;
+    margin-top: 41px;
+    right: 818px;
+    border-radius: 27px;
+}
+.services {
+    margin: 50px 150px 0 50px;
+    margin-left: 350px ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.what-services {
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+}
+.article-info {
+    width: 40%;
+    height: 264px;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 500px;
+    margin-left: 40px;
+}
+.img-info {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 26px;
+}
+.grade {
+    background-color: white;
+    margin-left: 26px;
+}
+.p-info {
+    background-color: white;
+    margin-left: 26px;
+}
+.more {
+    background-color: white;
+    margin-left: 26px;
+    border: 0;
+    font-size: 17px;
+}
+.more-info{
+    background-color: white;
+    border-radius: 35px;
+}
+.arrow{
+    position: absolute;
+    margin-top: -4px;
+    background-color: white;
+}
+.blog-h1{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+}
+.blog {
+    margin-top: 36px;
+    margin-left: 160px;
+    width: 309px;
+    gap: 34px;
+}
+.article-blog {
+}
+.photo-blog {
+}
+.title {
+}
+.info-blog {
+}
+.blog-more {
+    color: #000;
+}
+.more-blog{
+    position: relative;
+    margin-top:40px ;
+    margin-left: 800px;
+    border: 0;
+    border-radius: 25px;
+    width: 297px;
+    height: 46px;
+    background-color: #F47E20;
+    color: wheat;
+    font-size: 17px;
+}
+.more-blog_a{
+    background-color: #F47E20;
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    position: relative;
+    background-color: #F47E20;
+    margin-top: 100px;
+}
+.logo-end {
+    width: 140px;
+    height: 100px;
+    margin-left: 130px;
+    margin-top: 40px;
+    background-color: #F47E20;
+}
+.social-madia {
+    background-color: #F47E20;
+    margin-left: 150px;
+}
+.social-madia_icon-facebook{
+    width: 26px;
+    border-radius: 25px;
+}
+.social-madia_icon {
+    border-radius: 25px;
+}
+.footer-info {
+    background-color: #F47E20;
+    color: white;
+    display: flex;
+    gap: 60px;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.sections-info {
+    background-color: #F47E20;
+    list-style: none;
+}
+.info-footer_down {
+    background-color: #F47E20;
+    font-size: 27px;
+}
+.things {
+    font-size: 17px;
+    background-color: #F47E20;
+}
+.email {
+    background-color: #F47E20;
+}
+
+
+
+
+
+
+.line {
+    border-top:2px solid #f47f2074;
+    height:10%;
+    width: 1590px;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+.about-us_info {
+}
+.litle-inf0-about_us {
+    margin-left: 160px;
+    font-size: 19px;
+    width: 1600px;
+}
+.serfiticat {
+}
+.title-serfit {
+}
+.photo-serfitical {
+    margin-top: 40px;
+    width: 600px;
+    margin-left: 10px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 900px;
+}
+.button-forward {
+    border: none;
+    outline: none;
+    width: 40px;
+    background-color: #F47E20;
+    height: 40px;
+    border-radius: 50%;
+}
+.button-back {
+    border: none;
+    outline: none;
+    width: 40px;
+    background-color: #F47E20;
+    height: 40px;
+    border-radius: 50%;
+}
+.blog_fraim {
+    width: 1500px;
+    height: 600px;
+top: 264px;
+left: 142px;
+gap: 0px;
+border-radius: 38px 0px 0px 0px;
+opacity: 0px;
+margin-left: 190px;
+margin-top: 20px;
+}
+.text{
+    width: 1500px;
+height: 592px;
+top: 776px;
+left: 141px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+font-size: 19px;
+margin-left: 200px;
+}
+.footer_blog{
+    margin-top: -260px;
+    position: relative;
+    background-color: #F47E20;
+}
+.ofc-grade {
+    background-color: white;
+}
+.grade-cards {
+    background-color: white;
+
+}
+.numbers_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+height: 201px;
+top: 981px;
+margin-left: 319px;
+width: 1500px;
+margin-top: 40px;
+
+}
+.number-why_we {
+    background-color: white;
+    border-radius: 25px;
+    width: 273px;
+height: 151px;
+top: 758px;
+left: 337px;
+padding: 17px 69px 79px 33px;
+gap: 0px;
+border-radius: 16px 16px 16px 16px;
+opacity: 0px;
+
+}
+.number_grade {
+    background-color: white;
+    width: 62px;
+    height: 59px;
+    top: 17px;
+    left: 33px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 25px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.number-info {
+    position: relative;
+    background-color: white;
+    width: 243px;
+height: 80px;
+bottom: 32px;
+gap: 0px;
+opacity: 0px;
+top: -15px;
+}
+.line-card{
+    border-top:2px solid #f47f2074;
+    height:10%;
+    width: 1590px;
+    margin-left: 150px;
+}
+.blog_grade_page{
+    margin-left: 160px;
+    width: 309px;
+    gap: 34px;
+}
+.article-blog_grade{
+    margin-top: 36px;
+}
+.what-services_grade{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+    margin-top: 370px;
+}
+.contacts_about {
+    background-color: white;
+    width: 619px;
+height: 288px;
+top: 213px;
+margin-left: 300px;
+gap: 0px;
+border-radius: 16px 16px 16px 16px;
+opacity: 0px;
+
+}
+.telephon{
+    position: relative;
+    background-color: white;
+    width: 141px;
+height: 20px;
+top: 37px;
+left: 50px;
+
+}
+.number_phone {
+    position: relative;
+    width: 289px;
+height: 39px;
+gap: 0px;
+opacity: 0px;
+margin: 50px 150px 0 50px;
+    background-color: white;
+}
+.grafic {
+    position: relative;
+    margin-left: 340px;
+    bottom: 50px;
+    background-color: white;
+    color:#636363;
+}
+.email_about {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    background-color: white;
+    width: 200px;
+}
+.adress {
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    background-color: white;
+    width: 400px;
+}
+.toxnuy_adres {
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    width: 400px;
+}
+.about{
+    background-color: white;
+    border-radius: 25PX;
+}
+.contact_us {
+    background-color: white;
+    width: 419px;
+height: 288px;
+margin-bottom: -413px;
+margin-top: -306px;
+margin-left: 1000px;
+gap: 0px;
+border-radius: 16px 16px 16px 16px;
+opacity: 0px;
+}
+.social-mes {
+    background-color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    border-radius: 25px;
+}
+.social_mesangers_cont {
+    background-color: white;
+}
+.viber-telegram {
+    border-radius: 25px;
+    width: 40px;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.social_us {
+    background-color: white;
+    margin-left: 120px;
+
+}
+.social_us-ps {
+    background-color: white;
+    align-items: center;
+    margin-left: 102px;
+    margin-bottom: 80px;
+}
+.map {
+    position: relative;
+    left: 300px;
+    top: 500px;
+    width: 1120px;
+    border-radius: 25px;
+}
+
+.a_lot-info{
+    margin: 50px 150px 0 50px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    width: 1600px;
+}
+.footer_contacts{
+    position: relative;
+    background-color: #F47E20;
+    margin-top: 600px;
+}
+.dvigat{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .header {
+        position: relative;
+
+    }
+    
+    .logo {
+        width: 140px;
+        height: 100px;
+        margin-left: 20px; /* Уменьшаем отступ для мобильных */
+    }
+    
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Распределяем элементы */
+        background-color: none;
+    }
+    
+    .menu-burger {
+        cursor: pointer;
+        flex-direction: column;
+        gap: 5px;
+        background-color: #000;
+        margin-top: -40px;
+    }
+    
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: black; /* Цвет линий бургера */
+    }
+    
+    .menu-container {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        background-color: white; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.3s ease; 
+        transform: translateY(-100%); 
+        z-index: 4; /* Ставим ниже хедера */
+    }
+    
+    .menu-container.closed {
+        transform: translateY(0); /* Показываем меню */
+    }
+    
+    .inner {
+        right: 200px; /* Отступы для содержимого меню */
+        position: relative;
+        z-index: 2;
+    }
+    
+    .ul-header {
+        list-style: none;
+        display: flex;
+        flex-direction: column; /* Вертикальное расположение */
+        gap: 15px; /* Отступы между пунктами */
+    }
+    
+    .li-header {
+        cursor: pointer;
+        font-size: 18px; /* Увеличиваем шрифт для удобства чтения */
+    }
+    
+    .a-header {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .close-btn {
+        cursor: pointer;
+        font-size: 18px; 
+        margin-bottom: 10px; /* Отступ снизу для кнопки закрытия */
+    }
+    
+    .number {
+        position: relative;
+        margin-right: 20px; /* Уменьшаем отступ для мобильных */
+    }
+    
+    .social {
+        display: flex;
+        gap: 20px; /* Увеличиваем отступы между иконками */
+        margin-right: 20px; 
+    }
+    
+    .viber-telegr {
+        width: 26px; 
+    }
+    
+    .line-header {
+        border-top: 2px solid #f47f2074;
+        height: 10%;
+        width: 100%;
+        margin-top: -10px; /* Уменьшаем отступ для мобильных */
+    }
+    
+
+    .nav-header {
+
+    }
+
+    .ul-header {
+
+    }
+
+    .li-header {
+
+    }
+
+    .number, .language-switch {
+
+    }
+    .header {
+    }
+    .logo {
+    }
+    .ul-header {
+    }
+    .a-header {
+    }
+    .li-header {
+    }
+    .number {
+    }
+    .launge_ru {
+    }
+    .launge_ukr {
+    }
+    .social {
+    }
+    .social_mesangers {
+    }
+    .menu-container {
+        position: fixed; /* Или absolute, в зависимости от ваших нужд */
+        top: 15%; /* Позиционирование под хедером */
+        left: 0; /* Сдвигаем меню влево */
+        right: 0; /* Устанавливаем его ширину */
+        background-color: white; /* Цвет фона меню */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для меню */
+        transition: transform 0.3s ease; /* Плавный переход */
+        transform: translateY(-100%); /* Скрытое состояние */
+    }
+    
+    .menu-container.closed {
+        transform: translateY(0); /* Показываем меню */
+    }
+    
+    .close-btn {
+        cursor: pointer;
+        margin: 20px; /* Отступы вокруг кнопки */
+        font-size: 18px; /* Размер шрифта */
+        display: block; /* Показать в новом блоке */
+        text-align: right; /* Выравнивание текста по правому краю */
+    }
+    
+    
+    .viber-telegr {
+    }
+    .line-header {
+    }
+    .main {
+    }
+    .first-photo {
+        margin-top: -200px;
+        width: 1321px;
+        height: 609px;
+        margin-left: -300px;
+
+    }
+    .background{
+        position: absolute;
+        width: 570px;
+        height: 609px;
+        background-color: rgba(0, 0, 0, 0.683);
+
+        margin-top: -200px;
+        right: -10px;
+        z-index: 1;
+    }
+    .more-contacts{
+position: hidden;
+    }
+    .nave-conytact{
+        position: absolute;
+        font-size: 20px;
+        top: 260px;
+        background: none;
+        color: rgb(255, 255, 255);
+        z-index: 1;
+        margin-left: 0px;
+    }
+    .why-we {
+        margin: 0px;
+        margin-right: 40px;
+    }
+    .why-we_H1 {
+        width: 321px;
+    }
+    .why_in {
+        width: 280px;
+        margin: auto;
+        padding: auto;
+    }
+    .litle-info {
+        position: relative;
+        right: 320px;
+        gap: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    .dop-info {
+        font-size: 10px;
+    }
+    .dop-info_photo {
+        width: 50px;
+        height: 50px;
+    }
+    .dop-info_text {
+    }
+    .zakaz-ocenka {
+        margin-left: -20px;
+    }
+    .more-blog_a {
+    }
+    .strelka {
+    }
+    .what-services {
+        margin-left: 0px;
+        width: 320px;
+        margin-left: 20px;
+    }
+    .services {
+        display: block;
+        margin-left: -40px;
+        width:760px;
+        height: 500px;
+    }
+    .article-info {
+        display: grid;
+        height: 210px;
+        row-gap: 20px;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 200px;
+    }
+    .img-info {
+        margin-top: 10px;
+    }
+    .grade {
+        position: relative;
+       bottom: 100px;
+        width: 260px;
+        font-size: 14px;
+        margin-left: px;
+    }
+    .p-info {
+        margin-top: -105px;
+        width: 260px;
+    }
+    .more-info {
+        margin-top: -95px;
+        width: 10px;
+        height: 10px;
+    }
+    .more {
+        margin-top: 60px;
+        z-index: 1;
+        font-size: 14px;
+        font-weight: bold; 
+    }
+    .arrow {
+    }
+    .blog-h1 {
+        margin-left: 0;
+        margin-top: 400px;
+        width: 320px;
+        margin-left: 20px;
+    }
+    .blog {
+        margin-left: 0;
+    }
+    .article-blog {
+        margin-left: 20px;
+    }
+    .photo-blog {
+        margin-left: -20px;
+    }
+    .title {
+    }
+    .info-blog {
+    }
+    .blog-more {
+    }
+    .more-blog {
+        margin-left: 0px;
+    }
+    .footer {
+    }
+    .logo-end {
+    }
+    .social-madia {
+    }
+    .social-madia_icon-facebook {
+    }
+    .social-madia_icon {
+    }
+    .footer-info {
+    }
+    .sections-info {
+    }
+    .info-footer_down {
+    }
+    .things {
+    }
+    .email {
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .line {
+    }
+    .dvigat {
+    }
+    .contacts_about {
+        margin-left: -100px;
+        width: 300px;
+        height: 300px;
+        background-color: none;
+    }
+    .telephon {
+        margin-left: -30px;
+        margin-top: 20px;
+        background-color: none;
+    }
+    .number_phone {
+        margin-left: 19px;
+        width: 70px;
+        font-size: 13px;
+        background-color: none;
+    }
+    .grafic {
+        margin-left: 19px;
+        width: 240px;
+        margin-top: 30px;
+        background-color: none;
+    }
+    .email_about {
+        margin-top: 40px;
+        margin-left: -31px;
+        background-color: none;
+    }
+    .adress {
+        margin-top: -20px;
+        margin-left: -29px;
+        width: 250px;
+        background-color: none;
+    }
+    .toxnuy_adres {
+        margin-left: -29px;
+        width: 250px;
+        background-color: none;
+    }
+    .about{
+        background-color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        border-radius: 25px;
+        margin-left: -px;
+    }
+
+
+    .contact_us {
+        margin-left: -100px;
+        width: 300px;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .social-mes {
+        gap: 0px;
+        margin-left: -10px;
+        background: none;
+    }
+    .social_mesangers_cont {
+
+    }
+    .viber-telegram {
+        width: 27px;
+
+    }
+    .social_us {
+        margin-left: 80px;
+        font-weight: bold;
+    }
+    .social_us-ps {
+        margin-left: 80px;
+    }
+    .map {
+        margin-left: -400px;
+        margin-top: -50px;
+        width: 300px;
+        height: 200px;
+    }
+    .footer_contacts {
+    }
+    .logo-end {
+    }
+    .social-madia {
+    }
+    .social-madia_icon-facebook {
+    }
+    .social-madia_icon {
+    }
+    .footer-info {
+    }
+    .sections-info {
+    }
+    .info-footer_down {
+    }
+    .things {
+    }
+    .email {
+    }
+}
