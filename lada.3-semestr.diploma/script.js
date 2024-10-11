@@ -21,7 +21,7 @@
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+
     const menuContainer = document.querySelector('.menu-container');
     const menuBurger = document.querySelector('.menu-burger');
     const closeBtn = document.querySelector('.close-btn');
@@ -35,4 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
     closeBtn.addEventListener('click', function() {
         menuContainer.classList.add('closed');
     });
-});
+
