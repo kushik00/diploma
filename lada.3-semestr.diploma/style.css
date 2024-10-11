@@ -1,6 +1,5 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    background-color: #EEF2FF;
 } 
 .header {
     overflow: hidden;
@@ -318,9 +317,9 @@
 .line {
     border-top:2px solid #f47f2074;
     height:10%;
-    width: 1590px;
-    margin-top: 110px;
-    margin-left: 150px;
+    /* width: 1590px; */
+    /* margin-top: 110px; */
+    /* margin-left: 150px; */
 }
 .about-us_info {
 }
@@ -594,7 +593,7 @@ opacity: 0px;
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 394px) {
     .header {
         position: relative;
 
@@ -615,16 +614,19 @@ opacity: 0px;
     
     .menu-burger {
         cursor: pointer;
+        display: flex;
         flex-direction: column;
-        gap: 5px;
-        background-color: #000;
+        gap: 15px;
+        position: absolute;
+        right: 10px;
         margin-top: -40px;
+        z-index: 150;
     }
     
     .line {
-        width: 30px;
+        width: 100px;
         height: 3px;
-        background-color: black; /* Цвет линий бургера */
+        background-color: white; /* Цвет линий бургера */
     }
     
     .menu-container {
@@ -635,7 +637,7 @@ opacity: 0px;
         background-color: white; 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
         transition: transform 0.3s ease; 
-        transform: translateY(-100%); 
+        transform: translateY(-400%); 
         z-index: 4; /* Ставим ниже хедера */
     }
     
@@ -691,7 +693,8 @@ opacity: 0px;
         border-top: 2px solid #f47f2074;
         height: 10%;
         width: 100%;
-        margin-top: -10px; /* Уменьшаем отступ для мобильных */
+        /* margin-top: -10px; */
+         /* Уменьшаем отступ для мобильных */
     }
     
 
@@ -732,13 +735,15 @@ opacity: 0px;
     }
     .menu-container {
         position: fixed; /* Или absolute, в зависимости от ваших нужд */
-        top: 15%; /* Позиционирование под хедером */
+        top: 0; /* Позиционирование под хедером */
         left: 0; /* Сдвигаем меню влево */
         right: 0; /* Устанавливаем его ширину */
-        background-color: white; /* Цвет фона меню */
+        background-color: #F47E20; /* Цвет фона меню */
+        width: 100%;
+        height: 100%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для меню */
         transition: transform 0.3s ease; /* Плавный переход */
-        transform: translateY(-100%); /* Скрытое состояние */
+        transform: translateY(-300%); /* Скрытое состояние */
     }
     
     .menu-container.closed {
