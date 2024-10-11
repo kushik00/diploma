@@ -195,6 +195,7 @@
     border-radius: 25px;
     max-width: 500px;
     margin-left: 40px;
+    gap: 25px 25px 25px 25px;
 }
 .img-info {
     background-color: white;
@@ -280,7 +281,8 @@
     margin-left: 150px;
 }
 .social-madia_icon-facebook{
-    width: 26px;
+    width: 30px;
+    height: 30px;
     border-radius: 25px;
 }
 .social-madia_icon {
@@ -314,7 +316,6 @@
 
 
 
-
 .line {
     border-top:2px solid #f47f2074;
     height:10%;
@@ -330,6 +331,10 @@
     width: 1600px;
 }
 .serfiticat {
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    gap: 0;
 }
 .title-serfit {
 }
@@ -452,6 +457,12 @@ top: -15px;
     margin-left: 160px;
     width: 309px;
     gap: 34px;
+}
+.things-telef {
+    background-color: #F47E20;
+}
+.things-adres {
+    background-color: #F47E20;
 }
 .article-blog_grade{
     margin-top: 36px;
@@ -795,11 +806,13 @@ position: hidden;
     }
     .why-we_H1 {
         width: 321px;
+        margin-left: -10px;
     }
     .why_in {
         width: 280px;
-        margin: auto;
+        margin-left: -7px;
         padding: auto;
+        font-size: 13px;
     }
     .litle-info {
         position: relative;
@@ -827,33 +840,37 @@ position: hidden;
     .what-services {
         margin-left: 0px;
         width: 320px;
-        margin-left: 20px;
+        margin-left: 10px;
+        font-size: 17px;
     }
     .services {
-        display: block;
+        display: flex;
         margin-left: -40px;
         width:760px;
         height: 500px;
+        gap: 20px;
+        flex-wrap: none;
     }
     .article-info {
         display: grid;
-        height: 210px;
+        height: 310px;
         row-gap: 20px;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 200px;
     }
     .img-info {
-        margin-top: 10px;
+        margin-top:  10px;
     }
     .grade {
         position: relative;
-       bottom: 100px;
+       bottom: 0px;
         width: 260px;
+        height: 10px;
         font-size: 14px;
         margin-left: px;
     }
     .p-info {
-        margin-top: -105px;
+        margin-top: -50px;
         width: 260px;
     }
     .more-info {
@@ -873,7 +890,8 @@ position: hidden;
         margin-left: 0;
         margin-top: 400px;
         width: 320px;
-        margin-left: 20px;
+        margin-left: 10px;
+        font-size: 22px;
     }
     .blog {
         margin-left: 0;
@@ -882,24 +900,40 @@ position: hidden;
         margin-left: 20px;
     }
     .photo-blog {
-        margin-left: -20px;
+        margin-left: -19px;
+        width: 280px;
     }
     .title {
+        margin-left: -10px;
+        width: 290px;
+        font-size: 16px;
     }
     .info-blog {
+        margin-left: -10px;
+        width: 290px;
+        font-size: 14px;
     }
     .blog-more {
+        margin-left: -10px;
+        width: 260px;
+        font-size: 14px;
     }
     .more-blog {
-        margin-left: 0px;
+        margin-left: 40px;
+        width: 200px;
     }
     .footer {
+        width: 400px;
+        height: 200px;
     }
     .logo-end {
+        display: none;
     }
     .social-madia {
+
     }
     .social-madia_icon-facebook {
+
     }
     .social-madia_icon {
     }
@@ -926,15 +960,102 @@ position: hidden;
 
 
 
+    .line {
+    }
+    .what-services {
+    }
+    .about-us_info {
+    }
+    
+    .active {
+    }
+    .button {
+    }
+    .slider-prev {
+    }
+    .button-back {
+    }
+    .slider-next {
+    }
+    .button-forward {
+    }
+    .services {
+    }
+    .article-info {
+    }
+    .img-info {
+    }
+    .grade {
+    }
+    .p-info {
+    }
+    .more-info {
+    }
+    .more {
+    }
+    .arrow {
+    }    
+
+    .litle-inf0-about_us {
+        position: relative;
+        left: -150px;
+        width: 220px;
+        font-size: 14px;
+    }
+    .serfiticat {
+    }
+    .photo-serfitical {
+        height: 200px;
+        max-width: 300px;
+        margin-left: 10px;
+    }
 
 
 
 
-
-
-
-
-
+    .blog_fraim {
+        width: 240px;
+        height: 180px;
+        margin-left: 10px;
+        border-radius: 25px;
+    }
+    .text {
+        width: 230px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .footer_blog{
+        position: relative;
+        margin-top: 1130px;
+        height: 200px;
+    }
+    .sections-info:first-child{
+        margin-left: -400px;
+    }
+    .info-footer_down:first-child {
+        visibility: hidden;
+    }
+    .things-telef {
+        margin-left: -280px;
+        position: relative;
+        top: 110px;
+    }
+    .things-adres {
+        margin-left: -320px;
+        position: relative;
+        top: 150px;
+        font-size: 13px;
+    }
+    .social-madia{
+        margin-left: 80px;
+        position: relative;
+        top: 10px;
+    }
+    .email{
+        margin-left: -280px;
+        position: relative;
+        top: 80px;
+    }
 
     .line {
     }

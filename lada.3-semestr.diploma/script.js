@@ -1,24 +1,3 @@
-// var arrLang = {
-//     'ukr' : {
-//         'перша' : 'Головна',
-//         'про нас' : 'Про нас' ,
-//         'услуги' : 'Услуги' ,
-//         'Блог' : 'Блог' ,
-//         'контакти' : 'Контакти' ,
-//     }
-// }
-
-// $(function() {
-//     $('.translate').click(function() {
-//       var langs = $(this).attr('id');
-
-//       $('.lang').each(function(index, item) {
-//         $(this).text(arrLang[langs][$(this).attr('key')]);
-//       });
-//     });
-//   });
-
-
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -36,3 +15,23 @@ document.addEventListener('DOMContentLoaded', function() {
         menuContainer.classList.add('closed');
     });
 });
+
+
+let offset = 0;
+const sliderLine = document.querySelector('.serfiticat');
+
+document.querySelector('.slider-next').addEventListener('click', function(){
+    offset = offset + 600;
+    if (offset > 1200){
+        offset = 0;
+    }
+    sliderLine.style.left = offset + 'px'
+})
+
+document.querySelector('.slider-prev').addEventListener('click', function(){
+    offset = offset - 600;
+    if (offset < 0){
+        offset = 1800;
+    }
+    sliderLine.style.left = offset + 'px'
+})
