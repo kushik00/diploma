@@ -1,5 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    background-color:  #EEF2FF;
 } 
 .header {
     overflow: hidden;
@@ -53,21 +54,33 @@
 .line-header{
     border-top:2px solid #f47f2074;
     height:10%;
-    width: 1590px;
-    margin-top: -160px;
+    width: 1600px;
     margin-left: 150px;
+    margin-top: 20px;
+}
+.nav-container{
+    width: 2020px;
 }
 .social {
-    margin-right: 150px;
     position: relative;
     list-style: none;
     display: flex;
-    gap: 39px;
+    gap: 19px;
     font-size: 18px;
-    margin-left: 1600px;
-    bottom: 192px;
+    margin-left: 1480px;
+    bottom: 160px;
+    width: 10px;
 }
-
+.language{
+    position: relative;
+    margin-top: -205px;
+    margin-left: 1650px;
+}
+.translate {
+    border: none;
+    outline: none;
+        cursor: pointer;
+}
 
 .social_mesangers {
 }
@@ -346,6 +359,15 @@
     margin-top: 20px;
     margin-left: 900px;
 }
+.slider-prev {
+    border: none; outline: none;
+    cursor: pointer;
+        
+}
+.slider-next {
+    border: none; outline: none;
+    cursor: pointer;
+}
 .button-forward {
     border: none;
     outline: none;
@@ -504,13 +526,13 @@ margin: 50px 150px 0 50px;
 .grafic {
     position: relative;
     margin-left: 340px;
-    bottom: 50px;
+    bottom: 85px;
     background-color: white;
     color:#636363;
 }
 .email_about {
     position: relative;
-    bottom: 50px;
+    bottom: 0px;
     left: 50px;
     background-color: white;
     width: 200px;
@@ -533,6 +555,7 @@ margin: 50px 150px 0 50px;
 .about{
     background-color: white;
     border-radius: 25PX;
+    margin-top: 50px;
 }
 .contact_us {
     background-color: white;
@@ -611,33 +634,38 @@ opacity: 0px;
     }
     
     .logo {
-        width: 140px;
-        height: 100px;
-        margin-left: 20px; /* Уменьшаем отступ для мобильных */
+        width: 110px;
+        height: 60px;
+        margin-left: 0px; /* Уменьшаем отступ для мобильных */
     }
-    
+    .navbar{
+        position: relative;
+    }
     .nav-container {
         display: flex;
-        align-items: center;
-        justify-content: space-between; /* Распределяем элементы */
+        align-items: center; 
+        justify-content: space-between;  
         background-color: none;
+        position: relative;
     }
     
     .menu-burger {
         cursor: pointer;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 6px;
         position: absolute;
-        right: 10px;
-        margin-top: -40px;
+        right: 15px;
+        margin-top: 0px;
+        width: 40px;
         z-index: 150;
     }
     
     .line {
-        width: 100px;
+        width: 35px;
         height: 3px;
-        background-color: white; /* Цвет линий бургера */
+        border-top: 3px solid #f47f20;
+        border-radius: 25px;
     }
     
     .menu-container {
@@ -654,29 +682,35 @@ opacity: 0px;
     
     .menu-container.closed {
         transform: translateY(0); /* Показываем меню */
+        background-color: white; 
     }
     
     .inner {
         right: 200px; /* Отступы для содержимого меню */
         position: relative;
         z-index: 2;
+        background-color: #ffffff;
     }
     
     .ul-header {
         list-style: none;
         display: flex;
-        flex-direction: column; /* Вертикальное расположение */
-        gap: 15px; /* Отступы между пунктами */
+        flex-direction: column; 
+        gap: 15px; 
+        margin-top: 200px;
+        background-color: #ffffff;
     }
     
     .li-header {
         cursor: pointer;
         font-size: 18px; /* Увеличиваем шрифт для удобства чтения */
+        background-color: #ffffff;
+        font-size: 23px;
+        color: #F47E20;
     }
-    
     .a-header {
         text-decoration: none;
-        color: black;
+
     }
     
     .close-btn {
@@ -844,9 +878,9 @@ position: hidden;
     }
     .what-services {
         margin-left: 0px;
-        width: 320px;
+        width: 290px;
         margin-left: 10px;
-        font-size: 17px;
+        font-size: 22px;
     }
     .services {
         display: flex;
@@ -890,10 +924,12 @@ position: hidden;
         font-weight: bold; 
     }
     .arrow {
+        margin-left: 130px;
+        margin-top: 35px;
     }
     .blog-h1 {
         margin-left: 0;
-        margin-top: 400px;
+        margin-top: 600px;
         width: 320px;
         margin-left: 10px;
         font-size: 22px;
@@ -906,7 +942,7 @@ position: hidden;
     }
     .photo-blog {
         margin-left: -19px;
-        width: 280px;
+        width: 300px;
     }
     .title {
         margin-left: -10px;
@@ -915,7 +951,7 @@ position: hidden;
     }
     .info-blog {
         margin-left: -10px;
-        width: 290px;
+        width: 300px;
         font-size: 14px;
     }
     .blog-more {
@@ -924,12 +960,15 @@ position: hidden;
         font-size: 14px;
     }
     .more-blog {
-        margin-left: 40px;
+        margin-left: 55px;
         width: 200px;
     }
     .footer {
-        width: 400px;
+        position: relative;
+        margin-top: 50px;
         height: 200px;
+        width: 400px;
+        right: 10px;
     }
     .logo-end {
         display: none;
@@ -943,6 +982,7 @@ position: hidden;
     .social-madia_icon {
     }
     .footer-info {
+        position: relative;
     }
     .sections-info {
     }
@@ -959,7 +999,10 @@ position: hidden;
 
 
 
-
+.a_lot-info{
+    width: 300px;
+    margin-left: 0px;
+}
 
 
 
@@ -977,6 +1020,8 @@ position: hidden;
     .button {
     }
     .slider-prev {
+
+
     }
     .button-back {
     }
@@ -1019,20 +1064,22 @@ position: hidden;
 
 
     .blog_fraim {
-        width: 240px;
+        width: 300px;
         height: 180px;
-        margin-left: 10px;
+        margin-left: 4px;
         border-radius: 25px;
     }
     .text {
-        width: 230px;
+        width: 290px;
         font-size: 13px;
         margin-left: 10px;
     }
     .footer_blog{
         position: relative;
-        margin-top: 1130px;
+        margin-top: 720px;
         height: 200px;
+        width: 400px;
+        right: 10px;
     }
     .sections-info:first-child{
         margin-left: -400px;
@@ -1041,23 +1088,23 @@ position: hidden;
         visibility: hidden;
     }
     .things-telef {
-        margin-left: -280px;
+        margin-left: -240px;
         position: relative;
         top: 110px;
     }
     .things-adres {
-        margin-left: -320px;
+        margin-left: -280px;
         position: relative;
         top: 150px;
         font-size: 13px;
     }
     .social-madia{
-        margin-left: 80px;
+        margin-left: 110px;
         position: relative;
         top: 10px;
     }
     .email{
-        margin-left: -280px;
+        margin-left: -240px;
         position: relative;
         top: 80px;
     }
@@ -1086,16 +1133,16 @@ position: hidden;
     .grafic {
         margin-left: 19px;
         width: 240px;
-        margin-top: 30px;
+        margin-top: 120px;
         background-color: none;
     }
     .email_about {
-        margin-top: 40px;
-        margin-left: -31px;
+        margin-top: -10px;
+        margin-left: -30px;
         background-color: none;
     }
     .adress {
-        margin-top: -20px;
+        margin-top: -50px;
         margin-left: -29px;
         width: 250px;
         background-color: none;
@@ -1110,7 +1157,7 @@ position: hidden;
         font-size: 12px;
         margin-top: 20px;
         border-radius: 25px;
-        margin-left: -px;
+        margin-left: 0px;
     }
 
 
@@ -1146,6 +1193,11 @@ position: hidden;
         height: 200px;
     }
     .footer_contacts {
+        position: relative;
+        margin-top: 550px;
+        height: 200px;
+        width: 400px;
+        right: 10px;
     }
     .logo-end {
     }
