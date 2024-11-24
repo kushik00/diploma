@@ -121,7 +121,7 @@
 .nave-conytact{
     position: absolute;
     font-size: 50px;
-    top: 260px;
+    top: 230px;
     background: none;
     color: rgb(255, 255, 255);
     z-index: 1;
@@ -135,9 +135,10 @@
 
 
 .why-we {
-    padding: 20px;
+    padding:  20px 20px 20px 20px;
     margin-left: 160px ;
-    max-width: 900px;
+    margin-right: 160px;
+    max-width: 1600px;
 }
 .why-we_H1 {
     font-size: 27px;
@@ -145,7 +146,6 @@
 }
 .why_in {
     word-spacing: 10px;
-    width: 1400px;
     margin-top: -10px;
 }
 
@@ -154,8 +154,8 @@
     display: flex;
     gap: 70px;
     margin-top: 50px;
-    margin-left: 270px;
-
+    margin-left: 320px;
+    margin-right: 270px;
 }
 .dop-info {
     max-width: 900px;
@@ -202,7 +202,22 @@
     margin: 50px 150px 0 50px;
     margin-left: 160px ;
 }
+.what-services_about{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+    margin-top: 120px;
+}
 .article-info {
+    width: 40%;
+    height: 364px;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 500px;
+    margin-left: 40px;
+    gap: 25px 25px 25px 25px;
+}
+.article-info_first{
     width: 40%;
     height: 264px;
     background-color: white;
@@ -294,6 +309,7 @@
     position: relative;
     background-color: #F47E20;
     margin-top: 100px;
+    width: 100%;
 }
 .logo-end {
     width: 140px;
@@ -340,8 +356,6 @@
 
 
 
-
-
 .line {
     border-top:2px solid #f47f2074;
     height:10%;
@@ -355,6 +369,8 @@
     margin-left: 160px;
     font-size: 19px;
     width: 1600px;
+    margin-top: 50px;
+    max-width: 1600px;
 }
 .serfiticat {
     position: relative;
@@ -364,14 +380,38 @@
 }
 .title-serfit {
 }
-.photo-serfitical {
-    margin-top: 40px;
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.slider {
+    /* border: 2px solid black; */
     width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 1024px;
+    height: 256px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.photo-serfitical {
+    width: 600px;
+    height: 400px;
     margin-left: 10px;
 }
 .button{
     margin-top: 20px;
-    margin-left: 900px;
+    margin-left: 570px;
 }
 .slider-prev {
     border: none; outline: none;
@@ -401,13 +441,12 @@
 .blog_fraim {
     width: 1500px;
     height: 600px;
-top: 264px;
 left: 142px;
 gap: 0px;
 border-radius: 38px 0px 0px 0px;
 opacity: 0px;
 margin-left: 190px;
-margin-top: 20px;
+margin-top: 60px;
 }
 .text{
     width: 1500px;
@@ -432,9 +471,13 @@ margin-left: 200px;
 .ofc-grade {
     background-color: white;
 }
+.a-ofc_grade{
+    text-decoration: none;
+
+}
 .grade-cards {
     background-color: white;
-
+    color: #000;
 }
 .numbers_cards {
     display: flex;
@@ -443,7 +486,7 @@ margin-left: 200px;
 height: 201px;
 top: 981px;
 width: 1500px;
-margin-left: 319px;
+margin-left: 360px;
 margin-top: 40px;
 
 }
@@ -485,7 +528,7 @@ top: -15px;
 .line-card{
     border-top:2px solid #f47f2074;
     height:10%;
-    margin-left: 150px;
+    margin-left: 0px;
 }
 .blog_grade_page{
     margin-left: 160px;
@@ -521,7 +564,7 @@ opacity: 0px;
 .telephon{
     position: relative;
     background-color: white;
-    width: 141px;
+    width: 200px;
 height: 20px;
 top: 37px;
 left: 50px;
@@ -535,6 +578,7 @@ gap: 0px;
 opacity: 0px;
 margin: 50px 150px 0 50px;
     background-color: white;
+    margin-top: 50px;
 }
 .grafic {
     position: relative;
@@ -631,10 +675,215 @@ opacity: 0px;
     margin-left: 100px;
     margin-top: 100px;
 }
+.second-photo{
+    margin-top: -150px;
+    background-color:rgba(0,0,0,.3);
+    height:700px ;
+    width: 1890px;
+    top:0;
+    left:0;
+}
+
+.grade-info{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+    margin-top: 140px;
+}
+.article-info_gra{
+    width: 40%;
+    height: 264px;
+    background-color: white;
+    border-radius: 25px;
+    max-width: 500px;
+    margin-left: 20px;
+    gap: 25px 25px 25px 25px;
+}
+.why-bissnes {
+    position: relative;
+    margin-left: 800px;
+    font-weight: 700 ;
+}
+.grade-more {
+    margin-left: 400px;
+}
+.number_grade-grade{
+    background-color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.profi {
+    margin: 30px 0 0 0px;
+    margin-left: 160px ;
+}
+.warning { 
+    margin: 30px 150px 0 50px;
+    margin-left: 160px ;
+}
+.somthing{
+    margin-left: 140px;
+}
+.what-services-grade{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 780px ;
+    max-width:760px;
+    margin-right: 200px;
+}
+.what-services-grade-t{
+    font-size: 27px;
+    margin: 50px 150px 0 50px;
+    margin-left: 650px ;
+    max-width:760px;
+    margin-right: 200px;
+}
+.what-services-grade_info{
+    margin-left: 160px ;
+}
+.more-contacts_grade{
+    position: relative;
+    top:50px ;
+    margin-left: 800px;
+    border: 0;
+    border-radius: 25px;
+    width: 297px;
+    height: 46px;
+    background-color: #F47E20;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    z-index: 1; 
+}
+.what{
+    word-spacing: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    max-width: 1600px;
+}
+.what-services_ul{
+    font-size: 20px;
+    margin: 50px 150px 0 50px;
+    margin-left: 160px ;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .header {
+    }
+    .navbar {
+    }
+    .nav-container {
+        margin-left: -80px;
+    }
+    .number {
+        margin-left: 1100px;
+    }
+    .social {
+        margin-left: 1220px;
+    }
+    .social_mesangers {
+    }
+    .viber-telegr {
+    }
+    .language {
+        margin-left: 1360px;
+    }
+    .translate {
+    }
+    .line-header {
+        width: 1300px;
+    }
+    .main {
+    }
+    .background {
+        width: 99%;
+        height: 630px;
+    }
+    .first-photo {
+    }
+    .more-contacts {
+        margin-top: 80px;
+        margin-left: 600px;
+    }
+    .more-blog_a {
+    }
+    .nave-conytact {
+        margin-top: -90px;
+    }
+    .why-we {
+        margin-top: -120px;
+        margin-left: 100px;
+    }
+    .why-we_H1 {
+
+    }
+    .why_in {
+        width: 1200px;
+    }
+    .litle-info {
+        margin-left: 200px;
+    }
+
+    .zakaz-ocenka {
+        margin-left: 500px;
+    }
+    .strelka {
+        position: relative;
+        left: -53px;
+        top: 16px;
+    }
+    .what-services {
+        margin-left: 100px;
+    }
+    .services {
+        margin-left: 200px;
+    }
+
+    .p-info {
+        width: 370px;
+    }
+
+    .more-blog { 
+       margin-left: 600px;
+    }
+
+    .footer-info {
+        margin-left: 330px;
+    }
 
 
 
+    .what-services {
+        margin-top: 150px;
+    }
 
+    .litle-inf0-about_us {
+        width: 1200px;
+    }
+
+.numbers_cards{
+    margin-left: 150px;
+}
+.a_lot-info{
+    width: 1200px;
+}
+
+
+.text{
+    margin-left: 70px;
+    width: 1300px;
+    padding: 30px;
+}
+.blog_fraim{
+margin-left: 80px;
+width: auto;
+}
+
+
+
+.dvigat{
+    margin-left: -150px;
+}
+}
 
 
 
@@ -650,7 +899,7 @@ opacity: 0px;
     .logo {
         width: 110px;
         height: 60px;
-        margin-left: 0px; /* Уменьшаем отступ для мобильных */
+        margin-left: 80px; /* Уменьшаем отступ для мобильных */
         background-color: none;
     }
     .navbar{
@@ -672,10 +921,11 @@ opacity: 0px;
         flex-direction: column;
         gap: 6px;
         position: absolute;
-        right: 15px;
+        right: -60px;
         margin-top: 0px;
         width: 40px;
         z-index: 150;
+        background-color: white;
     }
     
     .lin {
@@ -715,6 +965,7 @@ opacity: 0px;
         flex-direction: column; 
         gap: 15px; 
         margin-top: 200px;
+        justify-content: center;
         background-color: #ffffff;
     }
     
@@ -724,9 +975,11 @@ opacity: 0px;
         background-color: #ffffff;
         font-size: 23px;
         color: #F47E20;
+        width: 200px;
     }
     .a-header {
         text-decoration: none;
+        background-color: white;
 
     }
     
@@ -781,8 +1034,6 @@ opacity: 0px;
     }
     .ul-header {
     }
-    .a-header {
-    }
     .li-header {
     }
     .number {
@@ -795,18 +1046,18 @@ opacity: 0px;
     }
     .social_mesangers {
     }
-    /* .menu-container {
+    .menu-container {
         position: fixed; 
         top: 0; 
         left: 0; 
         right: 0; 
         background-color: #F47E20; 
-        width: 100%;
+        width: 395px;
         height: 100%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
         transition: transform 0.3s ease; 
         transform: translateY(-300%); 
-    } */
+    }
     
     .menu-container.closed {
         transform: translateY(0); /* Показываем меню */
@@ -836,29 +1087,25 @@ opacity: 0px;
     }
     .background{
         position: absolute;
-        width: 570px;
-        height: 609px;
+        width: 100%;
         background-color: rgba(0, 0, 0, 0.683);
-
-        margin-top: -200px;
-        right: -10px;
+        margin-top: -220px;
+        right: 1px;
         z-index: 1;
-    }
-    .more-contacts{
-position: hidden;
     }
     .nave-conytact{
         position: absolute;
         font-size: 20px;
-        top: 180px;
+        top: 290px;
         background: none;
         color: rgb(255, 255, 255);
         z-index: 1;
         margin-left: 10px;
+        max-width: 290px;
     }
     .more-contacts{
         position: relative;
-        right: 800px;
+        right: 600px;
     }
     .why-we {
         margin: 0px;
@@ -866,29 +1113,30 @@ position: hidden;
     }
     .why-we_H1 {
         width: 321px;
-        margin-left: -10px;
+        margin-left: -0px;
+        margin-top: -100px;
     }
     .why_in {
         width: 280px;
-        margin-left: -7px;
         padding: auto;
         font-size: 13px;
     }
     .litle-info {
         position: relative;
-        right: 320px;
-        gap: 10px;
-        width: 60px;
+        right: 440px;
+        gap: 40px;
         height: 60px;
     }
     .dop-info {
         font-size: 10px;
+        width: 60px;
     }
     .dop-info_photo {
         width: 50px;
         height: 50px;
     }
     .dop-info_text {
+        width: 60px;
     }
     .zakaz-ocenka {
         margin-left: -20px;
@@ -896,12 +1144,16 @@ position: hidden;
     .more-blog_a {
     }
     .strelka {
+        position: relative;
+        top: -86px;
+        left: 230px;
     }
     .what-services {
         margin-left: 0px;
         width: 290px;
         margin-left: 10px;
         font-size: 22px;
+        margin-top: 0px;
     }
     .services {
         display: flex;
@@ -914,10 +1166,13 @@ position: hidden;
     .article-info {
         flex-wrap: wrap;
         display: grid;
-        height: 310px;
+        height: 470px;
         row-gap: 20px;
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 3;
+    }
+    .ofc-grade{
+        margin-top: 50px;
     }
     .img-info {
         position: relative;
@@ -933,7 +1188,7 @@ position: hidden;
         margin-top: -3px;
     }
     .p-info {
-        margin-top: -60px;
+        margin-top: 20px;
         width: 260px;
     }
     .more-info {
@@ -942,7 +1197,6 @@ position: hidden;
         height: 10px;
     }
     .more {
-        margin-top: 60px;
         margin-left: 20px;
         z-index: 1;
         font-size: 14px;
@@ -958,8 +1212,7 @@ position: hidden;
         width: 155px;
     }
     .arrow {
-        margin-left: 130px;
-        margin-top: 35px;
+        margin-left: 110px;
     }
     .arrow-grade{
         margin-left: 160px;
@@ -1034,7 +1287,7 @@ position: hidden;
 
 
 .ofc-grade{
-    margin-top: -30px;
+    margin-top: -60px;
 }
 
 
@@ -1122,6 +1375,7 @@ position: hidden;
         left: -150px;
         width: 220px;
         font-size: 14px;
+        width: 300px;
     }
     .serfiticat {
     }
@@ -1143,7 +1397,7 @@ position: hidden;
     .text {
         width: 290px;
         font-size: 13px;
-        margin-left: 10px;
+        margin-left: -15px;
     }
     .footer_blog{
         position: relative;
@@ -1153,24 +1407,27 @@ position: hidden;
         right: 10px;
     }
     .sections-info:first-child{
-        margin-left: -400px;
     }
     .info-footer_down:first-child {
         visibility: hidden;
     }
     .things-telef {
-        margin-left: -240px;
+        margin-left: -260px;
         position: relative;
         top: 110px;
     }
     .things-adres {
-        margin-left: -280px;
+        margin-left: -300px;
         position: relative;
         top: 150px;
         font-size: 13px;
     }
+    .email {
+        position: absolute;
+        left: -124px;
+    }
     .social-madia{
-        margin-left: 110px;
+        margin-left: 120px;
         position: relative;
         top: 10px;
     }
@@ -1184,6 +1441,7 @@ position: hidden;
     }
     .dvigat {
         margin-top: 30px;
+        margin-left: 100px;
     }
     .contacts_about {
         margin-left: -100px;
@@ -1287,6 +1545,12 @@ position: hidden;
     }
     .things {
     }
-    .email {
-    }
+
 }
+
+
+
+
+
+
+
