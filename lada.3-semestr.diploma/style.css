@@ -841,6 +841,9 @@ opacity: 0px;
     .p-info {
         width: 370px;
     }
+    .article-info_first{
+        width: unset;
+    }
 
     .more-blog { 
        margin-left: 600px;
@@ -890,7 +893,20 @@ width: auto;
 
 
 
-@media screen and (max-width: 394px) {
+@media (max-width: 394px) {
+    .button{
+        margin-left: 93px;
+    }
+    .slider-line{
+        flex-direction: column;
+        width: unset;
+        height: unset;
+        row-gap: 20px;
+    }
+    .slider{
+        height: unset;
+        width: unset;
+    }
     .header {
         position: relative;
         z-index: 3;
@@ -1257,12 +1273,16 @@ width: auto;
     .footer {
         position: relative;
         margin-top: 50px;
-        height: 200px;
-        width: 400px;
+        display: flex;
+        flex-direction: column;
+        width: unset;
+        height: unset;
         right: 10px;
     }
     .logo-end {
-        display: none;
+        margin: 0px;
+        position: relative;
+        z-index: -1;
     }
     .social-madia {
 
@@ -1273,7 +1293,9 @@ width: auto;
     .social-madia_icon {
     }
     .footer-info {
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: unset;
     }
     .sections-info {
     }
@@ -1324,6 +1346,8 @@ width: auto;
     .button-forward {
     }
     .services {
+        margin-left: unset;
+        width: unset;
     }
     .numbers_cards{
         width: 0px;
@@ -1412,9 +1436,9 @@ width: auto;
         visibility: hidden;
     }
     .things-telef {
-        margin-left: -260px;
+        margin-left: unset;
         position: relative;
-        top: 110px;
+        top: 0px;
     }
     .things-adres {
         margin-left: -300px;
